@@ -1,0 +1,25 @@
+alias ll="ls -la"
+
+pnd(){
+  node -e "console.log(new Date($1))"
+}
+
+
+# git aliases
+
+alias gs="git status"
+alias delete-branches="git branch | grep -v "main" | xargs git branch -D"
+alias thisbranch="git rev-parse --abbrev-ref HEAD"
+alias thiscommit="git rev-parse HEAD"
+alias gti="git"
+gpb() {
+	git push --set-upstream origin `thisbranch`
+}
+
+# misc aliases
+alias resource="source ~/.zshrc"
+alias jqb="pbpaste | jq "
+alias code.="code ."
+alias maek="make"
+alias bsf="base64"
+

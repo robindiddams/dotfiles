@@ -1,0 +1,7 @@
+[character]
+success_symbol = "[❯](black) "
+error_symbol = "[✗](bold red) "
+
+[directory]
+style = "yellow"
+
