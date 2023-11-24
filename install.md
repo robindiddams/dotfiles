@@ -8,7 +8,7 @@ install starship:
 ```bash
 #load aliases
 
-echo "source .aliases" >> ~/.zshrc
+cp .aliases ~ && echo "source .aliases" >> ~/.zshrc
 
 # install starship
 brew install starship
